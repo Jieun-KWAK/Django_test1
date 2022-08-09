@@ -24,4 +24,9 @@ urlpatterns = [
     # html form을 이용해 블로그 객체 만들기
     path('new/', views.new, name='new'),
     path('create/', views.create, name='create'),
+
+    # Django form을 이용해 블로그 객체 만들기
+    path('formcreate/', views.formcreate, name='formcreate'),
+
 ]
+
