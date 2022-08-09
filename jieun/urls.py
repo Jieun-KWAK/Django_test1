@@ -28,5 +28,8 @@ urlpatterns = [
     # Django form을 이용해 블로그 객체 만들기
     path('formcreate/', views.formcreate, name='formcreate'),
 
+    #django modelform을 이용해 블로그 객체 만들기
+    path('modelformcreate/', views.modelformcreate, name='modelformcreate'),
+    
 ]
 
